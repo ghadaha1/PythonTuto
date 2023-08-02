@@ -18,7 +18,10 @@ print(m)
 
 greeting = 'hello'
 name = 'ghada'
-message = greeting +',' + name + 'welcome !'
-message2 = '{},{}. Welcome!'.format(greeting,name)
+message = greeting + ',' + name + 'welcome !'
+message2 = '{},{}. Welcome!'.format(greeting, name)
+message3 = f'{greeting.upper()},{name}. Welcome!'
 print(message)
 print(message2)
+print(message3)
+print(dir(name))  # show all methods we can uses with strings
